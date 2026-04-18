@@ -1,0 +1,38 @@
+# ============================================================
+#  JARVIS — Python Requirements
+#  Install with: pip install -r requirements.txt
+# ============================================================
+
+# AI
+google-generativeai>=0.7.0
+
+# Speech Recognition
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# GUI
+PyQt6>=6.6.0
+
+# Automation
+pyautogui>=0.9.54
+psutil>=5.9.0
+
+# Windows Volume Control (Windows only, skip on Mac/Linux)
+pycaw>=20240210; sys_platform=="win32"
+comtypes>=1.2.0; sys_platform=="win32"
+
+# Internet Actions
+pywhatkit>=5.4
+requests>=2.31.0
+
+# Utilities
+Pillow>=10.0.0
+numpy>=1.26.0
+
+# ── OPTIONAL: Whisper offline STT ─────────────────────────
+# openai-whisper>=20231117
+# ── OPTIONAL: ElevenLabs premium TTS ──────────────────────
+# elevenlabs>=1.0.0
